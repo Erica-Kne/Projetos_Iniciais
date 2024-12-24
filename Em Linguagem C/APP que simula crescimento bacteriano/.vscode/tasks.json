@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "c:/Users/erica/Desktop/Atividades Algoritmos/TrabalhoGA/main.c", // Altere para o caminho completo, se necessário
+                "-o",
+                "c:/Users/erica/Desktop/Atividades Algoritmos/TrabalhoGA/build/Debug/TrabalhoGA" // Nome do executável e o caminho para onde será salvo
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compila o arquivo C."
+        }
+    ]
+}
+
